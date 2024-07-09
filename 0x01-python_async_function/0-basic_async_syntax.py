@@ -1,7 +1,7 @@
 #!/usr/python3
+"""simple async func"""
 import asyncio
 import random
-"""simple async func"""
 
 
 async def wait_random(max_delay: int = 10) -> float:
