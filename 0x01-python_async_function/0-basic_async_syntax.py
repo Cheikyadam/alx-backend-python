@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/env python3
 """simple async func"""
 import asyncio
 import random
