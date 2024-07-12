@@ -4,7 +4,7 @@ import asyncio
 import random
 
 
-async def async_generator():
+async def async_generator() -> None:
     """yielding float"""
     for _ in range(10):
         yield random.uniform(0, 10)
